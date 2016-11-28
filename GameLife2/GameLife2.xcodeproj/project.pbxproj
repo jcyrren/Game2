@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA509DDF1DEA219800BB5FC4 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA509DDE1DEA219800BB5FC4 /* BoardView.swift */; };
+		DA509DE11DEA21FA00BB5FC4 /* colony.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA509DE01DEA21FA00BB5FC4 /* colony.swift */; };
+		DA509DE31DEB374700BB5FC4 /* slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA509DE21DEB374700BB5FC4 /* slider.swift */; };
 		DAAD6CD61DE366C000A3E3C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD6CD51DE366C000A3E3C5 /* AppDelegate.swift */; };
 		DAAD6CD81DE366C000A3E3C5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD6CD71DE366C000A3E3C5 /* MasterViewController.swift */; };
 		DAAD6CDA1DE366C000A3E3C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD6CD91DE366C000A3E3C5 /* DetailViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA509DDE1DEA219800BB5FC4 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DA509DE01DEA21FA00BB5FC4 /* colony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colony.swift; sourceTree = "<group>"; };
+		DA509DE21DEB374700BB5FC4 /* slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slider.swift; sourceTree = "<group>"; };
 		DAAD6CD21DE366C000A3E3C5 /* GameLife2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameLife2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAD6CD51DE366C000A3E3C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAD6CD71DE366C000A3E3C5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				DAAD6CD51DE366C000A3E3C5 /* AppDelegate.swift */,
 				DAAD6CD71DE366C000A3E3C5 /* MasterViewController.swift */,
 				DAAD6CD91DE366C000A3E3C5 /* DetailViewController.swift */,
+				DA509DDE1DEA219800BB5FC4 /* BoardView.swift */,
+				DA509DE01DEA21FA00BB5FC4 /* colony.swift */,
+				DA509DE21DEB374700BB5FC4 /* slider.swift */,
 				DAAD6CDB1DE366C000A3E3C5 /* Main.storyboard */,
 				DAAD6CDE1DE366C000A3E3C5 /* Assets.xcassets */,
 				DAAD6CE01DE366C000A3E3C5 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAD6CDA1DE366C000A3E3C5 /* DetailViewController.swift in Sources */,
+				DA509DDF1DEA219800BB5FC4 /* BoardView.swift in Sources */,
+				DA509DE31DEB374700BB5FC4 /* slider.swift in Sources */,
+				DA509DE11DEA21FA00BB5FC4 /* colony.swift in Sources */,
 				DAAD6CD81DE366C000A3E3C5 /* MasterViewController.swift in Sources */,
 				DAAD6CD61DE366C000A3E3C5 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +315,7 @@
 				DAAD6CE81DE366C000A3E3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
